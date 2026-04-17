@@ -1,0 +1,46 @@
+GET http://localhost:8080/api/patients/1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-15T175013-2.200.json
+
+###
+
+GET http://localhost:8080/api/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-03-15T175013-1.200.json
+
+###
+
+POST http://localhost:8080/api/patients
+Content-Type: application/json
+Content-Length: 82
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John",
+  "email": "john@email.com",
+  "age": 30,
+  "disease": "Flu"
+}
+
+<> 2026-03-15T175013.200.json
+
+###
+
+POST http://localhost:8080/api/patients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2026-03-15T174859.500.txt
+
+###
+

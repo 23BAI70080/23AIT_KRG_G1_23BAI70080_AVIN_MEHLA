@@ -1,0 +1,1 @@
+Something went wrong: Required request body is missing: public com.healthhub.dto.PatientDTO com.healthhub.controller.PatientController.createPatient(com.healthhub.dto.PatientDTO)
